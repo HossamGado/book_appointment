@@ -1,4 +1,4 @@
-import 'package:doctor_appointment/screens/welcome_screen.dart';
+import 'package:doctor_appointment/widgets/navbar_roots.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WelcomeScreen(),
+      home: NavBarRoots(),
 
     );
   }
