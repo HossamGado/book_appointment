@@ -2,8 +2,8 @@ import 'package:doctor_appointment/models/settings_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class ListTitleDesign extends StatelessWidget {
-  const ListTitleDesign({super.key});
+class ListTitleItem extends StatelessWidget {
+  const ListTitleItem({super.key});
 
   @override
   Widget build(BuildContext context) {
